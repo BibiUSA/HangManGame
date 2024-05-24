@@ -1,0 +1,108 @@
+<htmL lang="en">
+
+<head>
+<meta charset= "UTF-8">
+<meta name="viewport" content = "width =device-width, initial-scale =1">
+<title>Hangman Game</title>
+<link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <section class="main-menu hidden">
+        <h1>HANGMAN</h1>
+        <div class="menu-options">
+            <img src="./play-button-icon-png-18919.png" alt="playbutton" class="play-button">
+            <button type="menu" id="how-to-play">HOW TO PLAY</button>
+        </div>
+    </section>
+
+    <section class="category ">
+        <div id = "category-heading">
+        <h1>Pick a Category</h1>
+        <p class="back-button">Back</p>
+        </div>
+        <div class="categories">
+            <div class="category-option">MOVIES</div>
+            <div class="category-option">TV SHOWS</div>
+            <div class="category-option">COUNTRIES</div>
+            <div class="category-option">CAPITAL CITIES</div>
+            <div class="category-option">ANIMALS</div>
+            <div class="category-option">SPORTS</div>
+        </div>
+    </section>
+
+    <section class ="play-area hidden">
+        <div class="play-area-heading">
+            <div class="menu-icon">
+                <div class="menu-icon-bar"></div>
+                <div class="menu-icon-bar"></div>
+                <div class="menu-icon-bar"></div>
+            </div>
+            <h1>TV SHOWS</h1>
+            <div class="health-meter">
+                <div class="inner-health"></div> 
+            </div>
+        </div>
+
+        <div class="hint">
+            <div class="hint-row1">
+                <!-- <p class="hint-letter"></p> -->
+                <!-- <div class="hint-space"></div> -->
+                <!-- <p class="hint-letter"></p>
+                <p class="hint-letter"></p> -->
+            </div>
+            <div class="hint-row2">
+                <!-- <p class="hint-letter">W</p> -->
+            </div>
+        </div>
+
+        <div class="letters">
+            <div class="first-line">
+                <p>Q</p>
+                <p>W</p>
+                <p>E</p>
+                <p>R</p>
+                <p>T</p>
+                <p>Y</p>
+                <p>U</p>
+                <p>I</p>
+                <p>O</p>
+                <p>P</p>
+            </div>
+            <div class="second-line">
+                <p>A</p>
+                <p>S</p>
+                <p>D</p>
+                <p>F</p>
+                <p>G</p>
+                <p>H</p>
+                <p>J</p>
+                <p>K</p>
+                <p>L</p>
+            </div>
+            <div class="third-line">
+                <p>Z</p>
+                <p>X</p>
+                <p>C</p>
+                <p>V</p>
+                <p>B</p>
+                <p>N</p>
+                <p>M</p>
+            </div>
+        </div>
+        <div class="in-game-menu hidden">
+            <button class="in-game-menu-option" type="menu">Continue</button>
+            <button class="in-game-menu-option" type="menu">New Game</button>
+            <button class="in-game-menu-option" type="menu">New Category</button>
+        </div>
+        
+
+    </section>
+
+<script src="./data.json"></script>
+<script src="./index.js"></script>
+</body>
+
+
+
+</htmL>
