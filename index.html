@@ -8,7 +8,7 @@
 </head>
 
 <body>
-    <section class="main-menu">
+    <section class="main-menu hidden">
         <h1>HANGMAN</h1>
         <div class="menu-options">
             <img src="./play-button-icon-png-18919.png" alt="playbutton" class="play-button">
@@ -16,7 +16,7 @@
         </div>
     </section>
 
-    <section class="category hidden">
+    <section class="category">
         <div id = "category-heading">
         <h1>Pick a Category</h1>
         <p class="back-button">Back</p>
@@ -56,44 +56,49 @@
             </div>
         </div>
 
-        <div class="letters">
+        <div class=" letters-div">
             <div class="first-line">
-                <p>Q</p>
-                <p>W</p>
-                <p>E</p>
-                <p>R</p>
-                <p>T</p>
-                <p>Y</p>
-                <p>U</p>
-                <p>I</p>
-                <p>O</p>
-                <p>P</p>
+                <p class="clicked-letter letters">Q</p>
+                <p class="clicked-letter letters">W</p>
+                <p class="clicked-letter letters ">E</p>
+                <p class="clicked-letter letters ">R</p>
+                <p class="clicked-letter letters ">T</p>
+                <p class="clicked-letter letters ">Y</p>
+                <p class="clicked-letter letters ">U</p>
+                <p class="clicked-letter letters ">I</p>
+                <p class="clicked-letter letters ">O</p>
+                <p class="clicked-letter letters ">P</p>
             </div>
             <div class="second-line">
-                <p>A</p>
-                <p>S</p>
-                <p>D</p>
-                <p>F</p>
-                <p>G</p>
-                <p>H</p>
-                <p>J</p>
-                <p>K</p>
-                <p>L</p>
+                <p class="clicked-letter letters ">A</p>
+                <p class="clicked-letter letters ">S</p>
+                <p class="clicked-letter letters ">D</p>
+                <p class="clicked-letter letters ">F</p>
+                <p class="clicked-letter letters ">G</p>
+                <p class="clicked-letter letters ">H</p>
+                <p class="clicked-letter letters ">J</p>
+                <p class="clicked-letter letters ">K</p>
+                <p class="clicked-letter letters ">L</p>
             </div>
             <div class="third-line">
-                <p>Z</p>
-                <p>X</p>
-                <p>C</p>
-                <p>V</p>
-                <p>B</p>
-                <p>N</p>
-                <p>M</p>
+                <p class="clicked-letter letters ">Z</p>
+                <p class="clicked-letter letters ">X</p>
+                <p class="clicked-letter letters ">C</p>
+                <p class="clicked-letter letters ">V</p>
+                <p class="clicked-letter letters ">B</p>
+                <p class="clicked-letter letters ">N</p>
+                <p class="clicked-letter letters ">M</p>
             </div>
         </div>
         <div class="in-game-menu hidden">
-            <button class="in-game-menu-option" type="menu">Continue</button>
-            <button class="in-game-menu-option" type="menu">New Game</button>
-            <button class="in-game-menu-option" type="menu">New Category</button>
+            <button class="in-game-menu-option continue" type="menu">Continue</button>
+            <button class="in-game-menu-option new-game" type="menu">New Game</button>
+            <button class="in-game-menu-option new-category" type="menu">New Category</button>
+        </div>
+
+        <div class="game-over-menu hidden">
+            <button class="in-game-menu-option new-game" type="menu">New Game</button>
+            <button class="in-game-menu-option new-category" type="menu">New Category</button>
         </div>
         
 
