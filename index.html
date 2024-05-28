@@ -8,7 +8,7 @@
 </head>
 
 <body>
-    <section class="main-menu hidden">
+    <section class="main-menu ">
         <h1>HANGMAN</h1>
         <div class="menu-options">
             <img src="./play-button-icon-png-18919.png" alt="playbutton" class="play-button">
@@ -16,7 +16,7 @@
         </div>
     </section>
 
-    <section class="category">
+    <section class="category hidden">
         <div id = "category-heading">
         <h1>Pick a Category</h1>
         <p class="back-button">Back</p>
@@ -47,7 +47,7 @@
         <div class="hint">
             <div class="hint-row1">
                 <!-- <p class="hint-letter"></p> -->
-                <!-- <div class="hint-space"></div> -->
+                <!-- <p class="hint-space"></p -->
                 <!-- <p class="hint-letter"></p>
                 <p class="hint-letter"></p> -->
             </div>
@@ -58,36 +58,36 @@
 
         <div class=" letters-div">
             <div class="first-line">
-                <p class="clicked-letter letters">Q</p>
-                <p class="clicked-letter letters">W</p>
-                <p class="clicked-letter letters ">E</p>
-                <p class="clicked-letter letters ">R</p>
-                <p class="clicked-letter letters ">T</p>
-                <p class="clicked-letter letters ">Y</p>
-                <p class="clicked-letter letters ">U</p>
-                <p class="clicked-letter letters ">I</p>
-                <p class="clicked-letter letters ">O</p>
-                <p class="clicked-letter letters ">P</p>
+                <button class="clicked-letter letters">Q</button>
+                <button class="clicked-letter letters">W</button>
+                <button class="clicked-letter letters ">E</button>
+                <button class="clicked-letter letters ">R</button>
+                <button class="clicked-letter letters ">T</button>
+                <button class="clicked-letter letters ">Y</button>
+                <button class="clicked-letter letters ">U</button>
+                <button class="clicked-letter letters ">I</button>
+                <button class="clicked-letter letters ">O</button>
+                <button class="clicked-letter letters ">P</button>
             </div>
             <div class="second-line">
-                <p class="clicked-letter letters ">A</p>
-                <p class="clicked-letter letters ">S</p>
-                <p class="clicked-letter letters ">D</p>
-                <p class="clicked-letter letters ">F</p>
-                <p class="clicked-letter letters ">G</p>
-                <p class="clicked-letter letters ">H</p>
-                <p class="clicked-letter letters ">J</p>
-                <p class="clicked-letter letters ">K</p>
-                <p class="clicked-letter letters ">L</p>
+                <button class="clicked-letter letters ">A</button>
+                <button class="clicked-letter letters ">S</button>
+                <button class="clicked-letter letters ">D</button>
+                <button class="clicked-letter letters ">F</button>
+                <button class="clicked-letter letters ">G</button>
+                <button class="clicked-letter letters ">H</button>
+                <button class="clicked-letter letters ">J</button>
+                <button class="clicked-letter letters ">K</button>
+                <button class="clicked-letter letters ">L</button>
             </div>
             <div class="third-line">
-                <p class="clicked-letter letters ">Z</p>
-                <p class="clicked-letter letters ">X</p>
-                <p class="clicked-letter letters ">C</p>
-                <p class="clicked-letter letters ">V</p>
-                <p class="clicked-letter letters ">B</p>
-                <p class="clicked-letter letters ">N</p>
-                <p class="clicked-letter letters ">M</p>
+                <button class="clicked-letter letters ">Z</button>
+                <button class="clicked-letter letters ">X</button>
+                <button class="clicked-letter letters ">C</button>
+                <button class="clicked-letter letters ">V</button>
+                <button class="clicked-letter letters ">B</button>
+                <button class="clicked-letter letters ">N</button>
+                <button class="clicked-letter letters ">M</button>
             </div>
         </div>
         <div class="in-game-menu hidden">
@@ -97,6 +97,7 @@
         </div>
 
         <div class="game-over-menu hidden">
+            <p class ="win-or-lose"> YOU WIN!!!</p>
             <button class="in-game-menu-option new-game" type="menu">New Game</button>
             <button class="in-game-menu-option new-category" type="menu">New Category</button>
         </div>
